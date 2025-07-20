@@ -75,6 +75,16 @@ The script will:
 
 After installation, you can access NCLink through the LuCI web interface under the Services menu.
 
+## Features
+
+This package adds a new LuCI application called **LinkMask** to the OpenWrt web interface. This application is designed to simplify the configuration of your router, particularly for VPN services.
+
+Once installed, this package will add a new menu item labeled **LinkMask** to the **Services** tab in the router's main navigation menu. The "LinkMask" menu contains three sub-pages:
+
+*   **Settings:** A comprehensive page for configuring the router's WAN, Wi-Fi, and VPN settings.
+*   **Status:** A dashboard that displays the current status of the WAN, Wi-Fi, and VPN connections.
+*   **Wizard:** A guided setup tool to help users configure their router and VPN for the first time.
+
 ## Building Custom Packages for Advanced Developers
 
 If you need to build NCLink for a specific architecture not included in the pre-built packages, you can use the provided Docker-based build script to create custom packages.
